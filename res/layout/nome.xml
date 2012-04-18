@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:id="@+id/nome"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_alignParentLeft="true" android:text="Princípio Ativo" android:layout_below="@+id/nome"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_below="@+id/textView2" android:layout_alignParentLeft="true" android:id="@+id/lista1"></TextView>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lista1"
+        android:layout_centerHorizontal="true" />
+    
+</RelativeLayout>
